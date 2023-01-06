@@ -31,3 +31,5 @@ def min_list(L):
 print(A(a))
 print(min_list(a))
 print("chlen")
+print("vagina")
+print("vagina")
