@@ -106,5 +106,6 @@ def main():
 
 print(*language(), sep='\n')
 main()
+print("Член")
 
 
