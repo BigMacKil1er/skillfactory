@@ -7,3 +7,4 @@ print(list(map(lambda x: len(str(x)), a)))
 
 a = ["это", "маленький", "текст", "обидно"]
 print(list(map(str.upper, a)))
+print("addbigklittorr")
