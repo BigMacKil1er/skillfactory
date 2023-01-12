@@ -42,7 +42,7 @@ def convert(massage: telebot.types.Message):
         bot.reply_to(massage, f'Не удалось обработать команду\n{e}')
     else:
         
-        text = f'Актуальный курс валюты "{quote}" по отношению к "{base}" в колличестве "{amount}" - {float(total_base)*float(amount)}'
+        text = f'Актуальный курс валюты "{quote}" по отношению к "{base}" в количестве "{amount}" - {float(total_base)*float(amount)}'
     
         bot.send_message(massage.chat.id, text)
 
